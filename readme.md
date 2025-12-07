@@ -16,7 +16,7 @@ An interactive data visualization of Spotify songs as an orbital galaxy, where e
 - **Data Sampling**: Loads up to 50 random songs from the dataset for optimal performance and visibility.
 
 
-To avoid clutter, only 50 data samples have been visualized. You can change the number according to your requirement by editing `MAX_ROWS` in `chunamari_data_art.py`.
+**Note**: To avoid clutter, only 50 data samples have been visualized. You can change the number according to your requirement by editing `MAX_ROWS` in `chunamari_data_art.py`.
 
 ## How It Works
 
