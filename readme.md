@@ -1,6 +1,6 @@
 # Spotify Song Galaxy
 
-An interactive data visualization of Spotify songs as an orbital galaxy, where each song is represented as an orb orbiting around a central point. The orbital speed and position are determined by the song's audio features.
+An interactive data visualization of Spotify songs as an orbital galaxy, where each song is represented as an orb orbiting around a central point. The orbital speed and position are based on the audio features.
 
 ## Features
 
@@ -13,7 +13,10 @@ An interactive data visualization of Spotify songs as an orbital galaxy, where e
   - Scroll mouse wheel to zoom in/out
   - Press `+` or `-` keys for precise zoom adjustment
 - **Starry Background**: Beautiful space-themed background image
-- **Data Sampling**: Loads up to 50 random songs from the dataset for optimal performance and visibility
+- **Data Sampling**: Loads up to 50 random songs from the dataset for optimal performance and visibility.
+
+
+To avoid clutter, only 50 data samples have been visualized. You can change the number according to your requirement by editing `MAX_ROWS` in `chunamari_data_art.py`.
 
 ## How It Works
 
@@ -35,7 +38,12 @@ An interactive data visualization of Spotify songs as an orbital galaxy, where e
 
 ## Installation
 
-1. Clone or download this project
+1. Clone this repository
 2. Install dependencies:
    ```bash
    pip install pygame
+
+## Run this project
+
+1. cd into the root directory
+2. run this command : `python .\chunamari_data_art.py`
